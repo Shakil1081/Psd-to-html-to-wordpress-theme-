@@ -1,0 +1,40 @@
+﻿
+
+.replacemtn { padding-left:10px;}
+.tabdiscription { margin:0px; padding-left:10px;}
+.tabdiscription .tabheading h2 { font-size:24px; font-weight:bold; color:#002157; font-family: 'HelveticaNeueThinCond'; letter-spacing:1px;}
+.tabinfo p { font-weight:normal; font-size:14px; font-family: 'GothamLight'; margin-top:15px;}
+
+.tabimage { width:50%; margin:20px 0 10px 0;}
+.tabnote p { font-size:12px; color:#002156; font-family: 'GothamLight';}
+.addtocart a { background:#d9461d; padding:10px 15px; color:#fff; font-size:14px; border-radius:5px; text-align:center; width:110px;}
+.price { margin-left:10px; position:relative; top:-10px;}
+.price h2 { font-size:13px; color:#393935; margin:0px; font-weight:bold;}
+.price h3 { font-size:18px; color:#00a65f; margin:0px; font-weight:bold;}
+.replacemtn h2 { font-size:20px; color:#606a66; font-family: 'HelveticaNeueCondensedBold';}
+.replacemtn h2 span { color:#00a233;}
+.nextbutton { margin:0px; padding:0px;}
+.nextbutton h2 { color:#adacac; font-size:22px; font-family: 'HelveticaNeueCondensedBold'; text-align:center;}
+.tabbable.custom-tabs>.nav-tabs>li:first-child { margin-left:25px;}
+
+.tabbable.custom-tabs>.nav-tabs>li {font-size:18px; font-weight:bold;}
+
+.tabbable.custom-tabs>.nav-tabs>li>a {padding:10px 25px; color:#adacac; background:none;}
+.tabbable.custom-tabs>.nav-tabs>li.active>a {color:#005e00; border:1px solid #dfdede; border-bottom:none; outline:none; background:#fff;}
+.tabbable.custom-tabs>.tab-content {padding: 20px; min-height:400px;}
+
+@media screen and (max-width:980px) {
+.tabbable.custom-tabs.hide-label-980>.nav-tabs>li>a { min-width: 0; text-align: center; padding: 15px }
+.tabbable.custom-tabs.hide-label-980>.nav-tabs>li>a>[class*="icon"] {font-size:2em;text-align:center;min-width:0}
+}
+@media screen and (max-width:768px) {
+.tabbable.custom-tabs.hide-label-768>.nav-tabs>li>a { min-width: 0; text-align: center; padding: 15px;}
+.tabbable.custom-tabs.hide-label-768>.nav-tabs>li>a>span {display: none}
+.tabbable.custom-tabs.hide-label-768>.nav-tabs>li>a>[class*="icon"] {font-size:2em; text-align:center; min-width:0;}
+}
+@media screen and (max-width:480px) {
+.tabbable.custom-tabs.hide-label-480>.nav-tabs>li>a { min-width: 0; text-align: center; padding: 15px }
+.tabbable.custom-tabs.hide-label-480>.nav-tabs>li>a>span { display: none }
+.tabbable.custom-tabs.hide-label-480>.nav-tabs>li>a>[class*="icon"] { font-size:2em; text-align:center; min-width:0}
+}
+
